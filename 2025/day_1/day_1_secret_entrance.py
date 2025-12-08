@@ -6,6 +6,9 @@ class SecretEntrance:
     def part_1_sol(self):
         """
         Docstring for part_1_sol
+
+        Counts and prints the total number of times the dial lands exactly
+        on position 0 (wrapped around using modulo 100).
         """
         current = 50
         ans = 0
@@ -24,6 +27,9 @@ class SecretEntrance:
     def part_2_sol(self):
         """
         Docstring for part_2_sol
+
+        Counts and prints the total number of times the dial
+        passes/lands on position 0.
         """
         current = 50
         ans = 0
